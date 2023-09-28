@@ -199,3 +199,9 @@ class ViewController: UIViewController {
 
 }
 
+// PAW petrol olani yapilacak
+// ekran eklenecek
+// kullanici adlari ve puanlari gosterilecek
+// oyuna zorluk seviyesi ve sure secme eklenecek
+
+
