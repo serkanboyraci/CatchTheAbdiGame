@@ -110,7 +110,7 @@ class ViewController: UIViewController {
         
 
         
-        counter = 10
+        counter = 30
         timeLabel.text = "\(counter)" //String(counter)
         // decrease 1 second time interval
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(myTimer), userInfo: nil, repeats: true)
@@ -166,7 +166,7 @@ class ViewController: UIViewController {
            
                 
             //Alert
-            let alert = UIAlertController(title: "Time's Up!", message: "Do you want to play again?", preferredStyle: .alert)
+            let alert = UIAlertController(title: "ZAMAN DOLDU!", message: "TEKRAR OYNA?", preferredStyle: .alert)
             
             let okButton = UIAlertAction(title: "NO", style: .destructive)
                 
@@ -176,7 +176,7 @@ class ViewController: UIViewController {
                 self.score = 0
                 self.scoreLabel.text = "Score: \(self.score)"
                 // to reset counter
-                self.counter = 10
+                self.counter = 30
                 self.timeLabel.text = String(self.counter)
                 // reset Timers
                 timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(myTimer), userInfo: nil, repeats: true)
