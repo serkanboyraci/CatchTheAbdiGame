@@ -72,6 +72,7 @@ class ViewController: UIViewController {
         abdi14.isUserInteractionEnabled = true
         abdi15.isUserInteractionEnabled = true
         
+        // adding tap recognizer
         let recognizer1 = UITapGestureRecognizer(target: self, action: #selector(increaseScore))
         let recognizer2 = UITapGestureRecognizer(target: self, action: #selector(increaseScore))
         let recognizer3 = UITapGestureRecognizer(target: self, action: #selector(increaseScore))
@@ -88,6 +89,7 @@ class ViewController: UIViewController {
         let recognizer14 = UITapGestureRecognizer(target: self, action: #selector(increaseScore))
         let recognizer15 = UITapGestureRecognizer(target: self, action: #selector(increaseScore))
         
+        // connect tap recognizer
         abdi1.addGestureRecognizer(recognizer1)
         abdi2.addGestureRecognizer(recognizer2)
         abdi3.addGestureRecognizer(recognizer3)
